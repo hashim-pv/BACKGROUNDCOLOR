@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 10px;
+  }
+  
+  .btn {
+    appearance: button;
+    background-color: olive;
+    border: 1px solid #000;
+    border-radius: 4px;
+    border-bottom-left-radius:50px ;
+    border-top-left-radius:50px ;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 12px 40px;
+    text-align:center;
+  }
+
+
+  
